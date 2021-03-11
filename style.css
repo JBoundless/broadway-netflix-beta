@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  padding: 20px;
+  color: blue;
+  background-color: #87ceeb;
+}
+
+button {
+  background-color: gold;
+  color: blue;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
