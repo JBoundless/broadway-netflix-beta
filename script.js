@@ -13,8 +13,8 @@ class Buttons extends React.Component {
     return /*#__PURE__*/(
       React.createElement("div", null, /*#__PURE__*/
       React.createElement("h2", null, "Featured Musicals"), /*#__PURE__*/
-      React.createElement("button", null, /*#__PURE__*/React.createElement("a", { href: "#" }, "Dear Evan Hansen")), /*#__PURE__*/
-      React.createElement("button", null, /*#__PURE__*/React.createElement("a", { href: "#" }, "Wicked")), /*#__PURE__*/
+      React.createElement("button", null, /*#__PURE__*/React.createElement("a", { href: "DEH.html" }, "Dear Evan Hansen")), /*#__PURE__*/
+      React.createElement("button", null, /*#__PURE__*/React.createElement("a", { href: "Wicked.html" }, "Wicked")), /*#__PURE__*/
       React.createElement("button", null, /*#__PURE__*/React.createElement("a", { href: "#" }, "Mean Girls")), /*#__PURE__*/
       React.createElement("button", null, /*#__PURE__*/React.createElement("a", { href: "#" }, "Beetlejuice")), /*#__PURE__*/
       React.createElement("button", null, /*#__PURE__*/React.createElement("a", { href: "#" }, "Hamilton"))));
