@@ -1,0 +1,27 @@
+class Header extends React.Component {
+  render() {
+    return(
+      <div>
+        <h1>Broadway Netflix</h1>
+        <p>Watch all of your favorite musicals online!</p>
+      </div>
+    )
+  }
+}
+class Buttons extends React.Component {
+  render() {
+    return(
+      <div>
+        <h2>Featured Musicals</h2>
+        <button><a href="#">Dear Evan Hansen</a></button>
+        <button><a href="#">Wicked</a></button>
+        <button><a href="#">Mean Girls</a></button>
+        <button><a href="#">Beetlejuice</a></button>
+        <button><a href="#">Hamilton</a></button>
+      </div>
+    )
+  }
+}
+
+ReactDOM.render(<Header />, document.getElementById('header'));
+ReactDOM.render(<Buttons />, document.getElementById('buttons'));
